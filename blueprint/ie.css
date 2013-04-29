@@ -1,0 +1,205 @@
+/* -----------------------------------------------------------------------
+
+
+ Blueprint CSS Framework 1.0.1
+ http://blueprintcss.org
+
+   * Copyright (c) 2007-Present. See LICENSE for more info.
+   * See README for instructions on how to use Blueprint.
+   * For credits and origins, see AUTHORS.
+   * This is a compressed file. See the sources in the 'src' directory.
+
+----------------------------------------------------------------------- */
+
+/* ie.css */
+body {text-align:center;}
+.container {text-align:left;}
+* html .column, * html .span-1, * html .span-2, * html .span-3, * html .span-4, * html .span-5, * html .span-6, * html .span-7, * html .span-8, * html .span-9, * html .span-10, * html .span-11, * html .span-12, * html .span-13, * html .span-14, * html .span-15, * html .span-16, * html .span-17, * html .span-18, * html .span-19, * html .span-20, * html .span-21, * html .span-22, * html .span-23, * html .span-24 {display:inline;overflow-x:hidden;}
+* html legend {margin:0px -8px 16px 0;padding:0;}
+sup {vertical-align:text-top;}
+sub {vertical-align:text-bottom;}
+html>body p code {*white-space:normal;}
+hr {margin:-8px auto 11px;}
+img {-ms-interpolation-mode:bicubic;}
+.clearfix, .container {display:inline-block;}
+* html .clearfix, * html .container {height:1%;}
+fieldset {padding-top:0;}
+legend {margin-top:-0.2em;margin-bottom:1em;margin-left:-0.5em;}
+textarea {overflow:auto;}
+label {vertical-align:middle;position:relative;top:-0.25em;}
+input.text, input.title, textarea {background-color:#fff;border:1px solid #bbb;}
+input.text:focus, input.title:focus {border-color:#666;}
+input.text, input.title, textarea, select {margin:0.5em 0;}
+input.checkbox, input.radio {position:relative;top:.25em;}
+form.inline div, form.inline p {vertical-align:middle;}
+form.inline input.checkbox, form.inline input.radio, form.inline input.button, form.inline button {margin:0.5em 0;}
+button, input.button {position:relative;top:0.25em;}
+input[type=text], input[type=password]{padding-top: 8px; height: 27px;}
+
+#bg_login{
+  position: relative;
+	background-image: url(../images/cuadro-login.png);
+	background-repeat: no-repeat;
+	height: 562px;
+	width: 584px;
+	top: 0px;
+	margin-top: -20px;
+	margin-bottom: 20px;
+	z-index: 5;
+	margin-left: -70px;
+}
+
+#man{
+	position: relative;
+	height: 575px;
+	width: 326px;
+	margin-left: 744px;
+	margin-top: -575px;
+	top: 575px;
+	z-index: 5;
+	opacity: 0;
+	filter:alpha(opacity=0); /* For IE8 and earlier */
+}
+
+#man-estadisticas {
+	position: relative;
+	height: 465px;
+	width: 249px;
+	margin-left: -50px;
+	margin-top: -613px;
+	top: 643px;
+	z-index: 5;
+	opacity: 0;
+	filter:alpha(opacity=0); /* For IE8 and earlier */
+	background: transparent;
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF)"; /* IE8 */   
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#00FFFFFF,endColorstr=#00FFFFFF);   /* IE6 & 7 */      
+    zoom: 1;
+}
+
+#repisa{
+	position: relative;
+	margin-top: 200px;
+	left: -10px;
+	background-image: url(../images/repisa-manual.png);
+	background-repeat: no-repeat;
+	height: 292px;
+	width: 303px;
+	z-index: 9999;
+	margin-left: 0px;
+}
+
+#crear_ficha input[type=text], #crear_ficha input[type=password], #crear_ficha input.text, #crear_ficha input.title, #crear_ficha textarea {background-color:#fff;border:1px solid #bbb;color:#000;}
+#crear_ficha input[type=text]:focus, #crear_ficha input[type=password]:focus, #crear_ficha input.text:focus, #crear_ficha input.title:focus, #crear_ficha textarea:focus {border-color:#666;}
+#crear_ficha select {background-color:#fff;border-width:1px;border-style:solid;}
+#crear_ficha input[type=text], #crear_ficha input[type=password], #crear_ficha input.text, #crear_ficha input.title, #crear_ficha textarea, #crear_ficha select {margin:1px 0; height: 37px; width:320px; font-size: 20px; padding-left: 10px; padding-right: 10px; font-family:'frutiger_lt_std_87_extrablkRg', Arial; color: #333; font-weight: bold;}
+
+
+#todo input[type=text], #todo input[type=password], #todo input.text, #todo input.title, #todo textarea {background-color:#fff;border:1px solid #bbb;color:#000;}
+#todo input[type=text]:focus, #todo input[type=password]:focus, #todo input.text:focus, #todo input.title:focus, #todo textarea:focus {border-color:#666;}
+#todo select {background-color:#fff;border-width:1px;border-style:solid;}
+#todo input[type=text], #todo input[type=password], #todo input.text, #todo input.title, #todo textarea, #todo select {margin:1px 0; height: 30px; width:320px; font-size: 20px; padding-left: 10px; padding-right: 10px; padding-top: 8px; font-family:'frutiger_lt_std_87_extrablkRg', Arial; color: #333; font-weight: bold;}
+
+#todo select{
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 340px;
+	font-size: 20px;
+	height: 40px;
+}
+
+#calendario select{
+	padding-right: 0px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	font-size: 20px;
+}
+
+#cuadro_edad{display: none;}
+
+#nac_dia select{
+	width: 70px;
+}
+
+#nac_mes select{
+	width: 150px;
+}
+
+#nac_anio select{
+	width: 100px;
+}
+
+#todo{
+	text-shadow: 1px 2px 0px #003366;
+}
+
+#todo table{
+	margin-bottom: 0px;
+	padding-bottom: 15px;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+
+#crear_ficha td, #todo td {padding:10px 5px 0px 0px;}
+
+#todo input[readonly] {
+	z-index:1;
+	border-color: #CCC;
+	border-width: thin;
+	/*width: 232px;*/
+	width: 320px;
+	height:27px;
+	font-family:'frutiger_lt_std_87_extrablkRg', Arial;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	color: #333;
+	line-height: normal;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	background-color: #ffcc66;
+	padding-top: 10px;
+}
+
+#campo_login2{
+	position: relative;
+	margin-left: 40px;
+	top: 10px;
+}
+
+#campo_login2 input[type=text]{
+	width: 222px;
+	height: 30px;
+	padding-top: 8px;
+}
+#campo_login2 label{
+	margin-top: 10px;
+}
+
+div#act_fisica{
+	display: inline;
+	visibility: hidden;
+}
+
+#intro-titulo{
+	padding-top: 10px;
+}
+
+#sombra-header{
+	position: relative;
+	margin: 0 auto;
+	margin-top: -57px;
+	*margin-top: -50px;
+	left: 0px;
+	background-image: url(../images/sombra-header.png);
+	background-repeat: no-repeat;
+	height: 24px;
+	width: 488px;
+	z-index: 9;
+}
+
+#texto-volver{left: 0px; *left: 0px; *padding-bottom: 20px; padding-bottom: 90px;}
